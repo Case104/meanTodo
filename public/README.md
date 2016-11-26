@@ -1,12 +1,9 @@
+# angular-basics
+The Angular Basics course is taught in workspaces.  This is the code for the final course app.
 
-# Building a MEAN Application
-
-This is the course repo for [Building a MEAN Application](https://teamtreehouse.com/library/building-a-mean-application) on [Treehouse](https://teamtreehouse.com/) by Huston Hedinger and Ken Howard.
-
-## Quick Start
-
-1. Fork this repo
-1. `git clone <your-fork>`
-1. Follow along with course and hack away
-1. `git commit -am "commit some cool changes"`
-1. `git push origin someCoolBranch` pushes changes to your fork. Great for sharing code and asking for comments on commits.
+# set-up
+```
+git clone <this-repo>
+cd <this-repo>
+http-server -p 3000
+# visit localhost:3000 to see the todoListApp

@@ -69,7 +69,6 @@ input[type="checkbox"] + span {
 input[type="checkbox"]:checked + span {
     background:url(checkbox-filled.svg) left top no-repeat;
 }
-
 nav ul {
   text-align: left;
   list-style: none;
