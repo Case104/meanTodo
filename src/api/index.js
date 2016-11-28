@@ -46,5 +46,17 @@ router.put('/todos/:id', function(req, res){
 
 // DESTROY
 
+router.delete('/todos/:id', function(req, res){
+	var id = req.params.id;
+
+	Todo.remove({'_id': id}, function(err, todo){
+		if (err){
+			return res.status(500).json({err: err.message});
+		} else {
+			res.json({message: 'Todo Deleted'});
+		}
+	});
+});
+
 
 module.exports = router;
